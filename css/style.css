@@ -1,0 +1,90 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: 'Roboto', 'Noto', sans-serif;
+}
+
+.screen {
+  background-color: #dadada;
+  margin: 50px auto;
+  width: 360px;
+  height: 640px;
+}
+
+div {
+  background-color: #fff;
+  float: left;
+  margin: 1px 0;
+  width: 360px;
+  height: 75px;
+  padding: 20px 25px;
+}
+
+.topbar {
+  background-color: #009688;
+  height: 56px;
+  box-shadow: 1px 1px;
+}
+
+.filter {
+  background-color: #009688;
+  width: 360px;
+  height: 48px;
+  border: 1px;
+  box-shadow: 1px 1px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 21px;
+  margin: 0;
+  text-align: center;
+}
+
+.filter h3 {
+  color: #fff;
+  font-size: 15px;
+  margin: 0;
+}
+
+.line h1 {
+  color: #000;
+  display: inline-block;
+  float: left;
+  font-size: 21px;
+  line-height: 35px;
+  margin: 0;
+  text-align: left;
+  text-transform: none;
+}
+
+.line h2 {
+  display: inline-block;
+  float: left;
+  font-size: 17px;
+  margin: 0;
+  text-align: left;
+}
+
+.line h3 {
+  display: inline-block;
+  float: right;
+  font-size: 15px;
+  font-weight: 450;
+  line-height: 35px;
+  margin: 0;
+  text-align: left;
+}
+
+.line h4 {
+  color: #757575;
+  display: inline-block;
+  float: right;
+  font-size: 15px;
+  line-height: 35px;
+  margin: 0;
+  text-align: left;
+}
