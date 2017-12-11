@@ -16,75 +16,78 @@ body {
 
 div {
   background-color: #fff;
-  float: left;
-  margin: 1px 0;
+  border-bottom: 1px solid #333;
   width: 360px;
   height: 75px;
-  padding: 20px 25px;
+  padding: 16px 16px;
+}
+
+.routes {
+  background-color: #dadada;
+  float: left;
+  height: 512px;
+  width: 360px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .topbar {
   background-color: #009688;
+  border: none;
+  box-shadow: 0px 1px #333;
   height: 56px;
-  box-shadow: 1px 1px;
-}
-
-.filter {
-  background-color: #009688;
-  width: 360px;
-  height: 48px;
-  border: 1px;
-  box-shadow: 1px 1px;
+  margin-top: -3px;
 }
 
 h1 {
   color: #fff;
   font-size: 21px;
-  margin: 0;
   text-align: center;
 }
 
-.filter h3 {
-  color: #fff;
-  font-size: 15px;
-  margin: 0;
+.line h1, h2, h3, h4, h5 {
+  display: inline-block;
+  text-align: left;
+}
+
+.line h1, h2 {
+  float: left;
 }
 
 .line h1 {
   color: #000;
-  display: inline-block;
-  float: left;
   font-size: 21px;
   line-height: 35px;
-  margin: 0;
-  text-align: left;
-  text-transform: none;
+  width: 40px;
 }
 
 .line h2 {
-  display: inline-block;
-  float: left;
   font-size: 17px;
-  margin: 0;
-  text-align: left;
+  width: 230px;
 }
 
-.line h3 {
-  display: inline-block;
+.line h3, h4, h5 {
   float: right;
   font-size: 15px;
+  line-height: 25px;
+  margin-top: 5px;
+  margin-right: 8px;
+}
+
+.line h3, h5 {
   font-weight: 450;
-  line-height: 35px;
-  margin: 0;
-  text-align: left;
 }
 
 .line h4 {
   color: #757575;
-  display: inline-block;
-  float: right;
-  font-size: 15px;
-  line-height: 35px;
-  margin: 0;
-  text-align: left;
+}
+
+.line h5 {
+  margin-right: 25px;
+
+}
+
+.reroute h4 {
+  margin-right: 42px;
 }
